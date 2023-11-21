@@ -89,8 +89,10 @@ int main(int argc, char** argv) {
     preOrdem(raiz);
 
     int prof = profundidade(raiz);
-    
-    cout << "\nA arvore e perfeita? 1-Sim 2-Nao: " << arvorePerfeita(raiz, prof, nivel)<< endl;
+
+	/*PARA DEIXAR IMPERFEITA SÓ TIRAR O COMENTARIO DO ELEMENTO 8 */
+	
+    cout << "\nA arvore e perfeita? 1-Sim 0-Nao: " << arvorePerfeita(raiz, prof, nivel)<< endl;
 	
     return 0;
 }
